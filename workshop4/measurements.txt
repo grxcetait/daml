@@ -1,0 +1,27 @@
+Assume that we have 6 measurements of the W boson mass:
+80354+/-32 MeV
+80360.2+/-9.9 MeV
+80366.6+/-15.9 MeV
+80375+/-23 MeV
+80376+/-33 MeV
+80433.5+/-6.4 MeV (measured by the CDF experiment)
+
+Can you find the best linear unbiased estimate of the combination?
+Can you show that this give the same result as fitting a constant? 
+What happens if you remove the outlier?
+How consistent are the outlier and the combination of the consistent results?
+We can express this in 'sigma' using "(outlier - combination)/sqrt(unc_outlier**2 + unc_combination**2)
+
+What happens if you assume the consistent measurements all have a correlation of 0.5?
+ie the correlation matrix is:
+1.0 0.5 0.5 0.5 0.5 
+0.5 1.0 0.5 0.5 0.5 
+0.5 0.5 1.0 0.5 0.5 
+0.5 0.5 0.5 1.0 0.5 
+0.5 0.5 0.5 0.5 1.0 
+How much larger is the uncertainty on the combination?
+How much does the combined central value shift?
+What is the consistency of the outlier and combination now (assume the outlier is fully uncorrelated with the other results)?
+
+
+
